@@ -58,7 +58,7 @@ def exponencial():
 def raiz_cuadrada():
     innum=input("     Raíz cuadrada de: ")
     num=innum.replace(",",".")
-    n2= float(num)**(0,5)
+    n2= float(num)**(1/2)
     print("     La raiz cuadrada de "+str(num)+" es: "+str(n2))
     print("     "+50*"_"+"\n")
     return
