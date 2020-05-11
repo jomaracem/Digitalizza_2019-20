@@ -17,7 +17,7 @@
 import msvcrt
 import json
 import requests
-from tabulate import*
+from tabulate import*, tabulate
 ## Logo .......................................................................................................................................
 def logo():    
     print("\n\n"+"                             .oOkc.                                          ;kOx'                       ")
